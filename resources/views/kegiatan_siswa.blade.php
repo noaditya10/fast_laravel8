@@ -7,6 +7,6 @@
     <title>Kegiatan Siswa</title>
 </head>
 <body>
-    Kegiatan Siswa 
+    Kegiatan Siswa Update 
 </body>
 </html>
