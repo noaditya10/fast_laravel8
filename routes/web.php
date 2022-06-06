@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/domino', function () {
-    return view('welcome');
+Route::get('/data-siswa', function () {
+    return view('data-siswa');
 });
     
