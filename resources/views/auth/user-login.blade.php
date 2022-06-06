@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    Ini adahal halaman login
+    Ini adahal halaman user login
 </body>
 </html>
