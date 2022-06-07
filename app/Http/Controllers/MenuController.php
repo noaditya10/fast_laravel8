@@ -23,24 +23,36 @@ class MenuController extends Controller
             "title" => "Siswa"
         ]);
     }
-    public function data_about () {
-        return view ('pages.profil', [
-            "title" => "About"
-        ]);
-    }
-    public function data_login () {
-        return view ('auth.login', [
-            "title" => "Halaman Login"
-        ]);
-    }
-    public function data_register () {
-        return view ('auth.register', [
-                "title" => "Halaman Pendaftaran"
-        ]);
-    }
+
     public function data_blog () {
         return view ('pages.blog', [
             "title" => "Blog"
         ]);
     }
+
+    public function data_gallery () {
+        return view ('pages.gallery', [
+            'title' => "Gallery"
+        ]);
+
+    }
+
+    public function data_about () {
+        return view ('pages.profil', [
+            "title" => "About"
+        ]);
+    }
+
+    public function data_login () {
+        return view ('auth.login', [
+            "title" => "Halaman Login"
+        ]);
+    }
+
+    public function data_register () {
+        return view ('auth.register', [
+                "title" => "Halaman Pendaftaran"
+        ]);
+    }
+    
 }
