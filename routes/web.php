@@ -13,3 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/', function () {
+    return view('welcome');
+});
+Route::get('/data-siswa', function () {
+    return view('pages/data-siswa');
+});
+
+Route::get('/info', function () {
+    return view('pages/info');
+});
+    
