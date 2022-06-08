@@ -23,4 +23,8 @@ Route::get('/data-siswa', function () {
 Route::get('/info', function () {
     return view('pages/info');
 });
-    
+   
+Route::get('/login', function () {
+    return view('login');
+});
+   
